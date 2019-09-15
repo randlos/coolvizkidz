@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <!-- Meta + Favicon -->
+   <title>Landing</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width" />
+   <script src="https://kit.fontawesome.com/87f6c66517.js"></script>
+    
+   <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+   
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+   
+   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+   <script src="particles.js"></script>
+	   
+   <style>
+        body {
+    	 font-family: 'Montserrat', sans-serif;
+    	 color: #eeeeee;
+         background: #000000;
+         background: -webkit-linear-gradient(top left, #000000, #222222);
+         background: -moz-linear-gradient(top left, #000000, #222222);
+         background: linear-gradient(top left, #000000, #222222);
+         }
+         
+         canvas{
+            display: block;
+            vertical-align:bottom;
+         }
+         
+	 
+         .container {
+              display: grid;
+              grid-template-rows: auto;
+              grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+              justify-items: center;
+              grid-row-gap: 5px;
+              grid-column-gap: 5px;
+              text-align: center;
+         }
+         
+         .brand{
+             background: gold;
+             height:280px;
+             width:280px;
+         }
+         
+         .names{
+            background: tomato;
+            height:280px;
+            width:280px;
+         }
+         
+         .social {
+            background: LightSeaGreen;
+            height:280px;
+            width:280px;
+         }
+
+         .social p {
+            padding: 15px;
+         }
+         
+         .mario p{
+             color: gold;
+             padding:0;
+             line-height: 0.5rem;
+         }
+         
+         .sarah p{
+             color: gold;
+             padding:0;
+             line-height: 0.5rem;
+         }
+
+         .portfolio {
+            background: transparent;
+            height:280px;
+            width:280px;
+            border: 1px solid lightseagreen;
+         }
+
+         .portfolio h2{
+            color: gold;
+            position: relative;
+         }
+
+         .portfolio_img {
+            margin: 15px 0 0 0;
+            height:250px;
+            width:250px;
+         }
+
+         .infotitle {
+            display: block;
+            position: relative;
+            margin: -70px 0 0 0;
+            color:lightseagreen;
+            font-size: 1.5rem;
+            background: black;
+            opacity: 0.9;
+         }
+
+
+		 
+    h1 {
+        font-size: 35px;
+        /* text-shadow: 4px 4px 30px rgba(150, 150, 150, 0.4); */
+    }
+
+
+    h2 {
+        text-shadow: 4px 4px 30px rgba(150, 150, 150, 0.4);
+    }    
+		
+    p {
+        font-size: 20px;
+        text-shadow: 4px 4px 30px rgba(150, 150, 150, 0.4);
+    }
+        
+    i {
+        text-shadow: 4px 4px 30px rgba(150, 150, 150, 0.4);
+        }
+
+    .breaker {
+        height:280px;
+        width:280px;
+        text-align: right;
+        margin: 0 5px 0 0;
+    }
+
+    .breaker h1 {
+        position: absolute;
+        transform: translate(90%, 180px);
+
+    }
+
+
+    
+    </style> 
+  </head>
+	
+ <body>
+<div id="particles-js">
+      <div class="container">
+        <div class="names animated fadeInDown delay-0.3s">
+            <div class="mario">
+                <h1>Mario Stauber</h1>
+                <p> DataJournalist</p>
+            </div>
+        	<div class="sarah">
+        	  	<h1>Sarah-Sophie Heißner</h1>
+        	    <p> DataArtist </p>  
+        	</div>
+    	</div>
+        
+            <div class="social animated fadeIn deslay-0.3s">
+                <!-- <p class="twitter">
+                    <a href="https://twitter.com/kerrtrvs"><i style="font-size: 1.5em; color: #fff;" class="fab fa-twitter"></i></a>
+                </p> -->
+                <p class="mail">
+            	    <a href="mailto:ask@coolvizkids.com"><i style="color: #ffff;" class="fas fa-envelope fa-4x"></i></a>        
+                </p>
+                <p class="github">
+                    <a href="https://github.com/randlos"><i style="color: #ffff;" class="fab fa-github fa-4x"></i></a>              
+                </p>
+    
+            </div>
+        <div class="breaker animated fadeIn delay-0.3s">    
+            <h1> Projects </h1>
+        </div>
+
+        <div class="portfolio animated fadeIn delay-0.3s">
+            <div id="32freunde">
+                <a href="https://instagram.com/32freunde">
+                    <img class="portfolio_img" src="img/32freunde.png" alt="WM-Projekt 32 Freune">
+                </a>
+                <span class="infotitle"> Insta: 32Freunde </span>
+            </div>
+        </div>
+        <div class="portfolio animated fadeIn delay-0.3s">
+                <div id="some">
+                    <a href="https://instagram.com/32freunde">
+                        <img class="portfolio_img" src="img/32freunde.png" alt="WM-Projekt 32 Freune">
+                    </a>
+                    <span class="infotitle"> Some other thing </span>
+                </div>
+            </div>
+
+      </div>
+    
+
+      
+     </div>
+ </div>
+
+  </body>
+</html>
