@@ -20,29 +20,21 @@
     	 font-family: 'Montserrat', sans-serif;
     	 color: #eeeeee;
          background: #000000;
-         background: -webkit-linear-gradient(top left, #000000, #222222);
-         background: -moz-linear-gradient(top left, #000000, #222222);
-         background: linear-gradient(top left, #000000, #222222);
-         }
-         
-         canvas{
-            display: block;
-            vertical-align:bottom;
          }
          
 	 
          .container {
               display: grid;
+              margin:0;
               grid-template-rows: auto;
-              grid-template-columns: repeat(1fr, minmax(300px, 2fr));
+              grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
               justify-items: center;
-              grid-row-gap: 5px;
-              grid-column-gap: 5px;
-              text-align: center;
+              grid-row-gap: 15px;
+              grid-column-gap: auto;
          }
          
          .brand{
-             background: gold;
+             background: black;
              height:280px;
              width:280px;
          }
@@ -111,6 +103,9 @@
             background: black;
             opacity: 0.9;
          }
+        .textbox{
+            padding: 0 10px;
+        }
 
 
 		 
@@ -152,8 +147,11 @@
   </head>
 	
  <body>
-<div id="particles-js">
-      <div class="container">
+      
+    <div class="container">
+        <div class="brand">
+            <h1 style="font-size: 3rem; margin: 90px 0 0 0"> coolvizkidz</h1>
+        </div>
         <div class="names animated fadeInDown delay-0.3s">
             <div class="mario">
                 <h1>Mario Stauber</h1>
@@ -163,7 +161,12 @@
         	  	<h1>Sarah-Sophie Heißner</h1>
         	    <p> DataArtist </p>  
         	</div>
-    	</div>
+        </div>
+        
+        <div class="breaker animated fadeIn delay-0.3s">    
+                <h1> Contact </h1>
+        </div>
+    
         
             <div class="social animated fadeIn deslay-0.3s">
                 <!-- <p class="twitter">
@@ -180,6 +183,23 @@
         <div class="breaker animated fadeIn delay-0.3s">    
             <h1> Projects </h1>
         </div>
+
+        <div class="portfolio animated fadeIn delay-0.3s">
+                <div id="brexitboard">
+                    <p class="textbox"> 
+                        Brexit is nice, but you can't visualize? 
+                        GB remains, but how to frame? 
+                        We'll push data fresh to your retina. 
+                        Remain calm.
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <span class="infotitle"> brexitboard.com </span>
+                    
+
+                </div>
+            </div>
 
         <div class="portfolio animated fadeIn delay-0.3s">
             <div id="32freunde">
@@ -202,8 +222,5 @@
     
 
       
-     </div>
- </div>
-
-  </body>
+    </body>
 </html>
