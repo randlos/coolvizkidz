@@ -12,9 +12,8 @@
    
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+   <link rel="stylesheet" href="css/bg.css">
    
-   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-   <script src="particles.js"></script>
 	   
    <style>
         body {
@@ -35,7 +34,7 @@
          .container {
               display: grid;
               grid-template-rows: auto;
-              grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+              grid-template-columns: repeat(1fr, minmax(300px, 2fr));
               justify-items: center;
               grid-row-gap: 5px;
               grid-column-gap: 5px;
@@ -55,36 +54,45 @@
          }
          
          .social {
-            background: LightSeaGreen;
+            background: darkseagreen;
             height:280px;
             width:280px;
          }
 
          .social p {
-            padding: 15px;
+            margin: 37px 0;;
+         }
+         
+         .mario h1{
+             color: darkseagreen;
+             line-height: 2.7rem;
+         }
+
+         .sarah h1{
+             color: goldenrod;
+             line-height: 2.7rem;
          }
          
          .mario p{
-             color: gold;
-             padding:0;
-             line-height: 0.5rem;
+             color: black;
+             line-height: 0.4rem;
+             padding: 0 0 15px 0;
          }
          
          .sarah p{
-             color: gold;
-             padding:0;
-             line-height: 0.5rem;
+             color: black;
+             line-height: 0.4rem;
          }
 
          .portfolio {
             background: transparent;
             height:280px;
             width:280px;
-            border: 1px solid lightseagreen;
+            border: 1px solid goldenrod;
          }
 
          .portfolio h2{
-            color: gold;
+            color: goldenrod;
             position: relative;
          }
 
@@ -98,7 +106,7 @@
             display: block;
             position: relative;
             margin: -70px 0 0 0;
-            color:lightseagreen;
+            color:goldenrod;
             font-size: 1.5rem;
             background: black;
             opacity: 0.9;
@@ -182,11 +190,11 @@
             </div>
         </div>
         <div class="portfolio animated fadeIn delay-0.3s">
-                <div id="some">
-                    <a href="https://instagram.com/32freunde">
-                        <img class="portfolio_img" src="img/32freunde.png" alt="WM-Projekt 32 Freune">
+                <div id="flourish">
+                    <a href="https://github.com/randlos/Flourish_Interactive-Table">
+                        <img class="portfolio_img" src="https://github.com/randlos/Flourish_Interactive-Table/blob/randlos/dynatable_intro.gif?raw=true" alt="Flourish Table">
                     </a>
-                    <span class="infotitle"> Some other thing </span>
+                    <span class="infotitle"> Flourish Templates </span>
                 </div>
             </div>
 
